@@ -1,20 +1,18 @@
-# Change Log
+# Changelog
 
-## 2015-14-03
-### Changed
-- added Sulphurpool colorscheme: based on blue-purple
-- changed value for green for Forest.
-    - base0B changed from #00ad9c to #3d97b8 (_much warmer green, now it doesn't clash with the red anymore_).
-- changed value for cyan for Forest (_more towards blue_)
-    - base0B changed from #5ab738 to #7b9726
-- changed value for yellow for Forest (_slightly darker_).
-    - base0A changed from #d5911a to #c38418
-- changed value for green for Heath.
-    - base0B changed from #379a37 to #918b3b;
+## 2016-11-22
+- removed all color schemes except Forest
 
+## 2016-02-28
+- changed color of WildMenu and StatusLine in Forest
 
-## 2015-15-03
-### Changed
+## 2016-05-01
+- added Operator color to Forest
+
+## 2015-03-17
+  - renamed Sulphurpool theme to correct spelling mistake
+
+## 2015-03-15
 - changed value for yellow on Sulphurpool
     - base0A from #a38d20 to #c08b30
 - changed value for green on Sulphurpool
@@ -30,6 +28,13 @@
 - changed value for violet on Lakeside
     - base0E from #5d5db1 to #6b6bb8 (_slightly lighter violet_)
 
-## 2015-17-03
-### Changed
-  - renamed Sulphurpool theme to correct spelling mistake
+## 2015-03-14
+- added Sulphurpool colorscheme: based on blue-purple
+- changed value for green for Forest.
+    - base0B changed from #00ad9c to #3d97b8 (_much warmer green, now it doesn't clash with the red anymore_).
+- changed value for cyan for Forest (_more towards blue_)
+    - base0B changed from #5ab738 to #7b9726
+- changed value for yellow for Forest (_slightly darker_).
+    - base0A changed from #d5911a to #c38418
+- changed value for green for Heath.
+    - base0B changed from #379a37 to #918b3b;

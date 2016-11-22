@@ -1,33 +1,35 @@
-" Base16 Atelier Dune (https://github.com/chriskempson/base16)
-" Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+" Base16 Atelier Forest (https://github.com/chriskempson/base16)
+" Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
+" Modified by: Klemen Košir
 
+" TODO: Remove from .zshrc
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
 " User must set this variable in .vimrc
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-atelierdune.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-atelierforest.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
-let s:gui00 = "20201d"
-let s:gui01 = "292824"
-let s:gui02 = "6e6b5e"
-let s:gui03 = "7d7a68"
-let s:gui04 = "999580"
-let s:gui05 = "a6a28c"
-let s:gui06 = "e8e4cf"
-let s:gui07 = "fefbec"
-let s:gui08 = "d73737"
-let s:gui09 = "b65611"
-let s:gui0A = "ae9513"
-let s:gui0B = "60ac39"
-let s:gui0C = "1fad83"
-let s:gui0D = "6684e1"
-let s:gui0E = "b854d4"
-let s:gui0F = "d43552"
+let s:gui00 = "1b1918"
+let s:gui01 = "2c2421"
+let s:gui02 = "68615e"
+let s:gui03 = "766e6b"
+let s:gui04 = "9c9491"
+let s:gui05 = "a8a19f"
+let s:gui06 = "e6e2e0"
+let s:gui07 = "f1efee"
+let s:gui08 = "f22c40"
+let s:gui09 = "df5320"
+let s:gui0A = "c38418"
+let s:gui0B = "7b9726"
+let s:gui0C = "3d97b8"
+let s:gui0D = "407ee7"
+let s:gui0E = "6666ea"
+let s:gui0F = "c33ff3"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -59,7 +61,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-atelierdune"
+let g:colors_name = "base16-atelierforest"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr)
@@ -156,7 +158,7 @@ call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "")
 call <sid>hi("Visual",        "", s:gui02, "", s:cterm02, "")
 call <sid>hi("VisualNOS",     s:gui08, "", s:cterm08, "", "")
 call <sid>hi("WarningMsg",    s:gui08, "", s:cterm08, "", "")
-call <sid>hi("WildMenu",      s:gui08, "", s:cterm08, "", "")
+call <sid>hi("WildMenu",      s:gui08, "", s:cterm0A, s:cterm01, "")
 call <sid>hi("Title",         s:gui0D, "", s:cterm0D, "", "none")
 call <sid>hi("Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00, "")
 call <sid>hi("Cursor",        s:gui00, s:gui05, s:cterm00, s:cterm05, "")
@@ -165,7 +167,7 @@ call <sid>hi("Normal",        s:gui05, s:gui00, s:cterm05, s:cterm00, "")
 call <sid>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "")
 call <sid>hi("SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01, "")
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "")
-call <sid>hi("StatusLine",    s:gui04, s:gui02, s:cterm04, s:cterm02, "none")
+call <sid>hi("StatusLine",    s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
 call <sid>hi("StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
 call <sid>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none")
 call <sid>hi("ColorColumn",   "", s:gui01, "", s:cterm01, "none")
@@ -193,7 +195,7 @@ call <sid>hi("Include",      s:gui0D, "", s:cterm0D, "", "")
 call <sid>hi("Keyword",      s:gui0E, "", s:cterm0E, "", "")
 call <sid>hi("Label",        s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("Number",       s:gui09, "", s:cterm09, "", "")
-call <sid>hi("Operator",     s:gui05, "", s:cterm05, "", "none")
+call <sid>hi("Operator",     s:gui0A, "", s:cterm0A, "", "none")
 call <sid>hi("PreProc",      s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("Repeat",       s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("Special",      s:gui0C, "", s:cterm0C, "", "")
