@@ -2,7 +2,6 @@
 " Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
 " Modified by: Klemen Košir
 
-" TODO: Remove from .zshrc
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
 " User must set this variable in .vimrc
@@ -151,7 +150,7 @@ call <sid>hi("MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03,  "")
 call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "")
-call <sid>hi("Search",        s:gui03, s:gui0A, s:cterm03, s:cterm0A,  "")
+call <sid>hi("Search",        s:gui00, s:gui0A, s:cterm03, s:cterm0A,  "")
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "")
 call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "")
