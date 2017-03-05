@@ -1,5 +1,9 @@
 # Changelog
 
+## 2017-03-05
+- renamed to `atelier_forest`
+- updated with `base16-builder`
+
 ## 2016-11-22
 - removed all color schemes except Forest
 

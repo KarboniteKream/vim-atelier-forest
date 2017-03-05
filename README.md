@@ -2,9 +2,7 @@
 
 Based on work by Bram De Haan.
 
-![Atelier Forest Dark](http://atelierbram.github.io/syntax-highlighting/assets/img/forest-dark_vim_640x425.png)
-
-![Atelier Forest Light](http://atelierbram.github.io/syntax-highlighting/assets/img/forest-light_vim_640x425.png)
+![Atelier Forest Dark](http://www.kream.io/files/atelier_forest_640x425.png)
 
 ## Installation
 
@@ -18,10 +16,10 @@ Plug 'KarboniteKream/vim-atelier-forest'
 Check [vim-plug] documentation for more details.
 
 ### Option 2: Manual installation
-Copy `base16-atelier-forest.vim` to your `.vim/colors` directory.
+Copy `atelier_forest.vim` to your `.vim/colors` directory.
 
 ```bash
-$ cp vim-atelier-forest/colors/base16-atelier-forest.vim ~/.vim/colors/
+$ cp vim-atelier-forest/colors/atelier_forest.vim ~/.vim/colors/
 ```
 
 ### Modify .vimrc
@@ -30,12 +28,12 @@ Put the following three lines in your `.vimrc`:
 ```vim
 syntax enable
 set background=dark
-colorscheme base16-atelier-forest
+colorscheme atelier_forest
 ```
 
 ## License
 
-Copyright (c) 2013 - 2015 [Bram de Haan](http://atelierbramdehaan.nl)
+Copyright (c) 2013 - 2017 [Bram de Haan](http://atelierbramdehaan.nl)
 
 Released under [MIT Licence](http://atelierbram.mit-license.org)
 
