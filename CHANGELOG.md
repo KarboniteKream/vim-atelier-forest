@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2017-03-05
+- added `lightline` colorscheme
 - renamed to `atelier_forest`
 - updated with `base16-builder`
 
