@@ -93,8 +93,9 @@ let s:p.visual.right = [ s:visual, s:info ]
 let s:p.replace.right = [ s:replace, s:info ]
 let s:p.inactive.right = [ s:inactive ]
 
-let s:p.normal.error    = [ [ s:base0A, s:base08 ] ]
-let s:p.normal.warning  = [ [ s:base08, s:base0A ] ]
+let s:p.normal.ok       = [ s:filename ]
+let s:p.normal.error    = [ [ s:base08, s:base01 ] ]
+let s:p.normal.warning  = [ [ s:base0A, s:base01 ] ]
 
 let s:p.tabline.left    = [ [ s:base05, s:base01 ] ]
 let s:p.tabline.middle  = [ [ s:base05, s:base01 ] ]
